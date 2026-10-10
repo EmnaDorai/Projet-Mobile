@@ -1,0 +1,39 @@
+name: restaurant_app
+description: Application mobile de restauration — module Gestion des utilisateurs.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.3
+  shared_preferences: ^2.2.3
+  crypto: ^3.0.3
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  geolocator: ^12.0.0
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  local_auth: ^2.3.0
+  google_sign_in: ^6.2.2
+  font_awesome_flutter: ^11.0.0
+  device_info_plus: ^11.3.0
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  pdf: ^3.11.3
+  share_plus: ^11.0.0
+  open_filex: ^4.7.0
+  fl_chart: ^0.70.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
